@@ -1,0 +1,74 @@
+.add-crypto__container {
+  background-color: var(--primary-dark-gray);
+  padding: 1.25rem;
+  border-radius: 1.25rem;
+  width: 20%;
+  height: 275px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: var(--primary-white);
+  font-size: 1.2rem;
+  padding-top: 0.2rem;
+  border: 1px solid var(--primary-white);
+}
+
+.add-crypto__button {
+  position: relative;
+  z-index: 100;
+  background-color: var(--primary-purple);
+  border-radius: 0.3125rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: var(--primary-white);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding: 0.5rem 1rem;
+  border: none;
+  cursor: pointer;
+}
+
+.add-crypto__button:active {
+  border: 2px solid var(--primary-white);
+}
+
+.add-crypto__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: visible;
+  width: 100%;
+  height: 100%;
+}
+
+.gradient-border {
+  --border-width: 1px;
+
+  position: absolute;
+  content: "";
+  z-index: 0;
+  width: 150px;
+  height: 50px;
+  background: linear-gradient(
+    60deg,
+    hsl(224, 85%, 66%),
+    hsl(269, 85%, 66%),
+    hsl(314, 85%, 66%),
+    hsl(359, 85%, 66%),
+    hsl(44, 85%, 66%),
+    hsl(89, 85%, 66%),
+    hsl(134, 85%, 66%),
+    hsl(179, 85%, 66%)
+  );
+  background-size: 300% 300%;
+  background-position: 0 50%;
+  border-radius: 10px;
+  animation: moveGradient 4s alternate infinite;
+}
+
+@keyframes moveGradient {
+  50% {
+    background-position: 100% 50%;
+  }
+}

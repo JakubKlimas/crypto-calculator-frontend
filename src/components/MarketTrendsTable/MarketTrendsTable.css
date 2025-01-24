@@ -1,0 +1,93 @@
+.crypto-table__container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  background-color: var(--primary-dark-gray);
+  color: var(--primary-gray-two);
+  font-family: sans-serif;
+  border-radius: 1.25rem;
+  padding: 0.8rem;
+  padding-left: 1.5rem;
+  padding-top: 0.2rem;
+  width: 60%;
+  border: 1px solid var(--primary-white);
+}
+
+.crypto-table__wrapper {
+  height: 207px;
+  width: 100%;
+}
+
+th {
+  padding: 0.4rem 0.6rem;
+  width: 120px;
+  height: 50px;
+}
+
+td {
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+td:first-child {
+  text-align: left;
+}
+
+thead th:first-child {
+  text-align: left;
+  padding: 0;
+}
+
+.crypto-table__container thead th {
+  font-size: 0.8rem;
+}
+
+.crypto-table__name {
+  color: var(--primary-white);
+}
+
+.crypto-table__last-price {
+  color: var(--primary-purple-dark-four);
+}
+
+.crypto-table__header {
+  font-size: 1.5rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: var(--primary-white);
+}
+
+.crypto-table__marker--profit {
+  color: var(--primary-green);
+}
+
+.crypto-table__marker--loss {
+  color: var(--primary-red);
+}
+
+.crypto-table__marker--loss,
+.crypto-table__marker--profit {
+  padding-left: 0.2rem;
+  font-size: 0.7rem;
+}
+
+.crypto-table__value--red {
+  color: var(--primary-red);
+}
+
+.crypto-table__value--green {
+  color: var(--primary-green);
+}
+
+.crypto-table__value--green,
+.crypto-table__value--red {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+  width: 100px;
+}
+
+.crypto-table--pointer {
+  cursor: pointer;
+}

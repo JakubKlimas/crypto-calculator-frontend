@@ -1,0 +1,56 @@
+.account-balance__main-container {
+  background-color: var(--primary-dark-gray);
+  padding: 1.25rem;
+  border-radius: 1.25rem;
+  height: 220px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: var(--primary-white);
+  font-size: 1.2rem;
+  border: 1px solid var(--primary-white);
+  padding-top: 0.2rem;
+}
+
+.account-balance__container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.account-balance__info {
+  text-align: center;
+}
+
+.account-balance__gif {
+  width: 250px;
+  height: 160px;
+  position: relative;
+}
+
+.account-balance__paragraph {
+  font-size: 2rem;
+}
+
+.account-balance__paragraph--green {
+  color: var(--primary-green);
+}
+
+.account-balance__paragraph--red {
+  color: var(--primary-red);
+}
+
+.account-balance__pragraph-container {
+  width: 150px;
+  height: 80px;
+  background-color: var(--primary-dark-blue-three);
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 110px;
+}

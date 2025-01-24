@@ -1,0 +1,26 @@
+.chart__wrapper {
+  background-color: var(--primary-dark-gray);
+  padding: 1.25rem;
+  border: 2px solid var(--primary-gray);
+  border-radius: 1.25rem;
+  width: 50%;
+  height: 256px;
+}
+
+.chart__container .axes:first-child .Axis .domainAndTicks line.domain {
+  stroke: transparent;
+}
+
+.chart-container line {
+  stroke: transparent;
+}
+
+.interval-select__wrapper {
+  display: flex;
+  gap: 1rem;
+}
+
+.selects__wrapper {
+  display: flex;
+  justify-content: space-between;
+}

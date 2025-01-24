@@ -1,0 +1,100 @@
+.add-crypto-form__container {
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 105%;
+  background-color: var(--primary-dark-gray-two);
+  z-index: 999;
+}
+
+.add-crypto-form__wrapper {
+  background-color: var(--primary-dark-gray);
+  padding: 1.25rem;
+  border-radius: 1.25rem;
+  width: 400px;
+  height: 450px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: var(--primary-white);
+  font-size: 1.2rem;
+  border: 1px solid var(--primary-white);
+  padding-top: 0.2rem;
+}
+
+.add-crypto-form__field-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0.5rem 0;
+  height: 70px;
+}
+
+.add-crypto-form__label {
+  font-size: 1rem;
+}
+
+.add-crypto-form__title {
+  width: 100%;
+  text-align: left;
+}
+
+.add-crypto-form__button-container {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.add-crypto-from__error-container {
+  font-size: 1rem;
+  color: var(--primary-red);
+}
+
+.add-crypto-form__input {
+  width: 258.8px;
+  height: 10px;
+  padding: 0.5rem;
+}
+
+.add-crypto-form__select {
+  width: 278.8px;
+  height: 30px;
+}
+
+.add-crypto-form__container input,
+.add-crypto-form__container select {
+  border: 1px solid var(--primary-white);
+  border-radius: 1rem;
+  padding-left: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.add-crypto-form__container option {
+  padding-left: 1rem;
+}
+
+.add-crypto-form__button {
+  position: relative;
+  z-index: 100;
+  background-color: var(--primary-purple);
+  border-radius: 0.3125rem;
+  font-weight: bold;
+  font-size: 1rem;
+  color: var(--primary-white);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding: 0.5rem 1rem;
+  border: none;
+  cursor: pointer;
+}

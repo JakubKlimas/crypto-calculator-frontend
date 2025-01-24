@@ -1,0 +1,116 @@
+.acconuts__container {
+  background-color: var(--primary-dark-gray);
+  padding: 1.25rem;
+  border-radius: 1.25rem;
+  width: 20%;
+  height: 275px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: var(--primary-white);
+  font-size: 1.2rem;
+  border: 1px solid var(--primary-white);
+  padding-top: 0.2rem;
+}
+
+.avatar__wrapper,
+.avatar__wrapper--plus {
+  border: 1px solid var(--primary-dark-pink);
+  background-color: var(--primary-purple-dark-two);
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  position: relative;
+  z-index: 999;
+}
+
+.avatar__wrapper svg {
+  width: 90%;
+  height: 90%;
+}
+
+.acconuts__container h3 {
+  font-size: 1.5rem;
+}
+
+.acconuts__container h4 {
+  margin: 0.5rem 0;
+  display: flex;
+  align-items: flex-start;
+}
+
+.accounts--space {
+  padding-top: 1rem;
+}
+
+.acconuts__container h4 p {
+  margin: 0 0.3rem;
+  font-size: 0.9rem;
+  color: var(--primary-purple-dark-three);
+}
+
+.avatar__wrapper--plus {
+  border: 2px dashed var(--primary-dark-pink);
+}
+
+.avatar__wrapper--plus svg {
+  width: 50%;
+  height: 50%;
+}
+
+.accounts__avatar-container {
+  display: flex;
+  gap: 1rem;
+}
+
+.accounts__amount--big.accounts__amount--big {
+  font-size: 1.5rem;
+  margin-left: 0;
+}
+
+.accounts__currency.accounts__currency {
+  margin-left: 1rem;
+}
+
+.wallet__wrapper {
+  position: relative;
+}
+
+.wallet-gradient-border {
+  --border-width: 1px;
+
+  position: absolute;
+  border-radius: 50%;
+  top: -3px;
+  left: -3px;
+  content: "";
+  z-index: 0;
+  width: 75px;
+  height: 75px;
+  background: linear-gradient(
+    60deg,
+    hsl(224, 85%, 66%),
+    hsl(269, 85%, 66%),
+    hsl(314, 85%, 66%),
+    hsl(359, 85%, 66%),
+    hsl(44, 85%, 66%),
+    hsl(89, 85%, 66%),
+    hsl(134, 85%, 66%),
+    hsl(179, 85%, 66%)
+  );
+  background-size: 300% 300%;
+  background-position: 0 50%;
+  animation: moveGradient 4s alternate infinite;
+}
+
+@keyframes moveGradient {
+  50% {
+    background-position: 100% 50%;
+  }
+}

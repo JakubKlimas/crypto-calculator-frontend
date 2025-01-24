@@ -1,0 +1,107 @@
+.bilance__main-container {
+  background-color: var(--primary-dark-gray);
+  padding: 1.25rem;
+  border-radius: 1.25rem;
+  height: 220px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: var(--primary-white);
+  font-size: 1.2rem;
+  border: 1px solid var(--primary-white);
+  padding-top: 0.2rem;
+}
+
+.bilance__arrow--up {
+  width: 30px;
+}
+
+.bilance__img-container {
+  width: 50px;
+  height: 50px;
+  background-color: var(--primary-dark-blue-two);
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bilance__comparison-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1rem;
+}
+
+.bilance__sum,
+.bilance__text {
+  margin: 0;
+}
+
+.bilance__sum {
+  color: var(--primary-white);
+  font-size: 1.7rem;
+}
+
+.bilance__text {
+  color: var(--primary-gray);
+}
+
+.bilance__container {
+  width: 100%;
+}
+
+.bilance__divider {
+  border-color: var(--primary-gray);
+}
+
+.bilance__purchase-price-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.bilance__sum--red {
+  color: var(--primary-red);
+}
+
+.bilance__sum--green {
+  color: var(--primary-green);
+}
+
+.bilance__sum--green,
+.bilance__sum--red,
+.bilance__sum {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+  width: 150px;
+}
+
+.bilance__info {
+  text-align: center;
+}
+
+.bilance__heading-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bilance__icon {
+  width: 25px;
+  height: 25px;
+}
+
+.bilance__modal-button {
+  background-color: var(--primary-dark-gray);
+  width: 25px;
+  height: 25px;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}

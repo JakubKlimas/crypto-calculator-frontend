@@ -1,0 +1,16 @@
+.crypto-carousel__container {
+  margin: auto 0;
+  padding-top: 0.6rem;
+  width: 100%;
+  color: var(--primary-ash);
+}
+
+.slick-slide > div:first-child {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slick-slide {
+  padding: 1.875rem 0;
+}

@@ -1,0 +1,44 @@
+{
+  "cryptoData": [
+    {
+      "name": "Bitcoin",
+      "symbol": "BTC",
+      "lastPrice": "43000$",
+      "dayChange": 2.3,
+      "profitOrLoss": "1500$",
+      "amount": 100
+    },
+    {
+      "name": "Ethereum",
+      "symbol": "ETH",
+      "lastPrice": "3200$",
+      "dayChange": -1.4,
+      "profitOrLoss": "-300$",
+      "amount": 10
+    },
+    {
+      "name": "Cardano",
+      "symbol": "ADA",
+      "lastPrice": "1.25$",
+      "dayChange": 0.5,
+      "amount": 100,
+      "profitOrLoss": "50$"
+    },
+    {
+      "name": "Ripple",
+      "symbol": "XRP",
+      "lastPrice": "0.85$",
+      "dayChange": -0.2,
+      "amount": 120,
+      "profitOrLoss": "-15$"
+    },
+    {
+      "name": "Solana",
+      "symbol": "SOL",
+      "lastPrice": "140$",
+      "dayChange": 1.8,
+      "amount": 160,
+      "profitOrLoss": "120$"
+    }
+  ]
+}

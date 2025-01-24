@@ -1,0 +1,106 @@
+[
+  {
+    "totalPurchasePrice": "200$",
+    "profitOrLoss": "-200$",
+    "nameAndSymbol": {
+      "name": "Ethereum",
+      "symbol": "ETH"
+    },
+    "priceAndAmount": {
+      "price": 3700.0,
+      "currency": "USD",
+      "amount": 1.25
+    }
+  },
+  {
+    "totalPurchasePrice": "200$",
+    "profitOrLoss": "-200$",
+    "nameAndSymbol": {
+      "name": "Cardano",
+      "symbol": "ADA"
+    },
+    "priceAndAmount": {
+      "price": 1.5,
+      "currency": "USD",
+      "amount": 1500
+    }
+  },
+  {
+    "totalPurchasePrice": "200$",
+    "profitOrLoss": "-90$",
+    "nameAndSymbol": {
+      "name": "Ripple",
+      "symbol": "XRP"
+    },
+    "priceAndAmount": {
+      "price": 0.85,
+      "currency": "USD",
+      "amount": 2000
+    }
+  },
+  {
+    "totalPurchasePrice": "200$",
+    "profitOrLoss": "200$",
+    "nameAndSymbol": {
+      "name": "Dogecoin",
+      "symbol": "DOGE"
+    },
+    "priceAndAmount": {
+      "price": 0.07,
+      "currency": "USD",
+      "amount": 5000
+    }
+  },
+  {
+    "totalPurchasePrice": "200$",
+    "profitOrLoss": "230$",
+    "nameAndSymbol": {
+      "name": "Binance Coin",
+      "symbol": "BNB"
+    },
+    "priceAndAmount": {
+      "price": 420.0,
+      "currency": "USD",
+      "amount": 10
+    }
+  },
+  {
+    "totalPurchasePrice": "200$",
+    "profitOrLoss": "211200$",
+    "nameAndSymbol": {
+      "name": "Polkadot",
+      "symbol": "DOT"
+    },
+    "priceAndAmount": {
+      "price": 28.5,
+      "currency": "USD",
+      "amount": 75
+    }
+  },
+  {
+    "totalPurchasePrice": "200$",
+    "profitOrLoss": "-23200$",
+    "nameAndSymbol": {
+      "name": "Solana",
+      "symbol": "SOL"
+    },
+    "priceAndAmount": {
+      "price": 150.0,
+      "currency": "USD",
+      "amount": 20
+    }
+  },
+  {
+    "totalPurchasePrice": "200$",
+    "profitOrLoss": "200$",
+    "nameAndSymbol": {
+      "name": "Dogecoin",
+      "symbol": "DOGE"
+    },
+    "priceAndAmount": {
+      "price": 0.07,
+      "currency": "USD",
+      "amount": 5000
+    }
+  }
+]

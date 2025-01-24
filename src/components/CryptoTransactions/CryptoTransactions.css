@@ -1,0 +1,101 @@
+.crypto-transactions__container {
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 105%;
+  background-color: var(--primary-dark-gray-two);
+  z-index: 999;
+}
+
+.crypto-transactions__wrapper {
+  background-color: var(--primary-dark-gray);
+  padding: 1.25rem;
+  border-radius: 1.25rem;
+  width: 400px;
+  height: 350px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: var(--primary-white);
+  font-size: 1.2rem;
+  border: 1px solid var(--primary-white);
+  padding-top: 0.2rem;
+}
+
+.crypto-transactions__field-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0.5rem 0;
+  height: 70px;
+}
+
+.crypto-transactions__label {
+  font-size: 1rem;
+}
+
+.crypto-transactions__title {
+  width: 100%;
+  text-align: left;
+}
+
+.crypto-transactions__table-wrapper {
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding: 0 0.5rem;
+  width: 100%;
+}
+
+.crypto-transactions__button-container {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.crypto-transactions__error-container {
+  font-size: 1rem;
+  color: var(--primary-red);
+}
+
+.crypto-transactions__input {
+  width: 258.8px;
+  height: 10px;
+  padding: 0.5rem;
+}
+
+.crypto-transactions__container input {
+  border: 1px solid var(--primary-white);
+  border-radius: 1rem;
+  padding-left: 1rem;
+  margin-top: 0.5rem;
+}
+
+.crypto-transactions__container option {
+  padding-left: 1rem;
+}
+
+.crypto-transactions__button {
+  position: relative;
+  z-index: 100;
+  background-color: var(--primary-purple);
+  border-radius: 0.3125rem;
+  font-weight: bold;
+  font-size: 1rem;
+  color: var(--primary-white);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding: 0.5rem 1rem;
+  border: none;
+  cursor: pointer;
+}

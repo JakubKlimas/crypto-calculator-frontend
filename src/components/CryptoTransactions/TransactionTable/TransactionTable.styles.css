@@ -1,0 +1,28 @@
+.transaction-table__gradient-border {
+  --border-width: 1px;
+
+  position: absolute;
+  content: "";
+  z-index: 0;
+  width: 265px;
+  height: 58px;
+  background: linear-gradient(
+    60deg,
+    hsl(351, 69%, 78%),
+    hsl(0, 73%, 75%),
+    hsl(0, 80%, 63%),
+    hsl(358, 97%, 14%),
+    hsl(0, 80%, 57%),
+    hsl(0, 83%, 49%),
+    hsl(0, 90%, 38%),
+    hsl(0, 99%, 30%)
+  );
+  background-size: 300% 300%;
+  background-position: 0 50%;
+  border-radius: 10px;
+  animation: moveGradient 4s alternate infinite;
+}
+
+.transaction-table__button-container--space {
+  gap: 1rem;
+}

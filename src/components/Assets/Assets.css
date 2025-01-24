@@ -1,0 +1,175 @@
+.assets__container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  background-color: var(--primary-dark-gray);
+  color: var(--primary-gray-two);
+  font-family: sans-serif;
+  border-radius: 1.25rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 0.2rem;
+  margin-bottom: 2rem;
+  width: 35%;
+  height: 500px;
+  border: 1px solid var(--primary-white);
+}
+
+.assets__wrapper {
+  width: 100%;
+}
+
+.assets__img {
+  width: 25px;
+  height: 25px;
+}
+
+.assets__img-container {
+  width: 45px;
+  height: 45px;
+  background-color: var(--primary-dark-blue-two);
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.assets__name-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.assets__name-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.assets__value-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.2rem;
+}
+
+.assets__value-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 100px;
+  gap: 0.2rem;
+}
+
+th {
+  padding: 0.4rem 0.6rem;
+  width: 120px;
+  height: 50px;
+}
+
+td {
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+td:first-child {
+  text-align: left;
+}
+
+thead th:first-child {
+  text-align: left;
+  padding: 0;
+}
+
+.assets__container thead th {
+  font-size: 0.8rem;
+}
+
+.assets__name {
+  color: var(--primary-white);
+  font-size: 1.05rem;
+}
+
+.assets__symbol,
+.assets__name {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+  max-width: 130px;
+}
+
+.assets__last-price {
+  color: var(--primary-purple-dark-four);
+}
+
+.assets__header {
+  font-size: 1.5rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: var(--primary-white);
+  margin-bottom: 0;
+}
+
+.assets__marker--profit {
+  color: var(--primary-green);
+}
+
+.assets__marker--loss {
+  color: var(--primary-red);
+}
+
+.assets__marker--loss,
+.assets__marker--profit {
+  padding-left: 0.2rem;
+  font-size: 0.7rem;
+}
+
+.assets__value--red {
+  color: var(--primary-red);
+}
+
+.assets__value--green {
+  color: var(--primary-green);
+}
+
+.assets--pointer {
+  cursor: pointer;
+}
+
+.assets__button {
+  background-color: var(--primary-purple);
+  border-radius: 0.3125rem;
+  font-weight: bold;
+  font-size: 0.9rem;
+  color: var(--primary-white);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding: 0.5rem 1.5rem;
+  border: none;
+  cursor: not-allowed;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.6rem;
+  margin-top: 1.1rem;
+  width: 100%;
+}
+
+.pagination button {
+  padding: 0.3125rem 0.6em;
+  cursor: pointer;
+}
+
+.pagination button:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.assets__paragraph {
+  margin-top: 0;
+  color: var(--primary-gray);
+}

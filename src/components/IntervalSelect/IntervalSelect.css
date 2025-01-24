@@ -1,0 +1,15 @@
+.interval-active__button {
+  background-color: var(--primary-black-70);
+  color: #868b93;
+  width: 2.375rem;
+  height: 2.375rem;
+  border: none;
+  border-radius: 0.625rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+.interval-select__button--active {
+  color: var(--primary-white);
+  background-color: var(--primary-black);
+}
